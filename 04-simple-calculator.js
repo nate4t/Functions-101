@@ -13,7 +13,7 @@ function solve(a, b, operator) {
 			console.log(add(a, b));
 			break;
 		case "subtract":
-			let subtract = (a, b) => a * b;
+			let subtract = (a, b) => a - b;
 			console.log(subtract(a, b));
 			break;
 	}
